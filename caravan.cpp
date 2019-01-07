@@ -63,6 +63,7 @@ void add_pack_animal(Caravan caravan, PackAnimal animal)
 
 void remove_pack_animal(Caravan caravan, PackAnimal animal)
 {
+  
 }
 
 int get_caravan_load(Caravan caravan)
@@ -77,7 +78,6 @@ void unload(Caravan caravan)
     unload(curr_node->pack_animal);
     curr_node = curr_node->next;
   }
-
 }
 
 int get_caravan_speed(Caravan caravan)
